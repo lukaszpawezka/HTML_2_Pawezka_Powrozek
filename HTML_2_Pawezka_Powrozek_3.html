@@ -29,9 +29,9 @@
 		
 		<form autocomplete="on">
 			<div style="clear: both">
-				<input type="text" name="name" placeholder="Imię" autofocus> Podaj swoje imie np. Łukasz <br>
-				<input type="text" name="surnname" placeholder="Nazwisko" required> Podaj swoje nazwisko np. Pawęzka <br>
-				<input list="list3" name="birthMonth" placeholder="Miesiac urodzenia"> Wybierz miesiac urodzenia
+				<input type="text" name="name" autofocus> Podaj swoje imie np. Łukasz <br>
+				<input type="text" name="surnname"  required> Podaj swoje nazwisko np. Pawęzka <br>
+				<input list="list3" name="birthMonth"> Wybierz miesiac urodzenia
 				<datalist id="list3">
 					<select>
 						<option value="Styczeń">
@@ -48,9 +48,9 @@
 						<option value="Grudzień">
 					</select>
 				</datalist> <br>
-				<input type = "email" name="e-mail" placeholder = "name@domain.com" required /> Podaj swój email według wzoru: name@domain.com <br>
-				 <input type = "text" placeholder = "(+##) ###-###-###" pattern="^[0-9]{3}-[0-9]{3}-[0-9]{3}$" required /> Podaj swój telefon według wzoru: 123-456-789 <br>
-				<textarea maxlength="200" rows="3" cols="70" placeholder="Maksymalna długość wiadomości - 200 znaków"></textarea>
+				<input type = "email" name="e-mail" required /> Podaj swój email według wzoru: name@domain.com <br>
+				<input type = "text" pattern="^[0-9]{3}-[0-9]{3}-[0-9]{3}$" required /> Podaj swój telefon według wzoru: 123-456-789 <br>
+				<textarea maxlength="200" rows="3" cols="70" ></textarea>
 			</div>
 
 			<div>
